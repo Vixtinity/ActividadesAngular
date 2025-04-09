@@ -1,11 +1,19 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-ejemplo7',
-  imports: [],
-  templateUrl: './ejemplo7.component.html',
-  styleUrl: './ejemplo7.component.css'
+  template: `
+  <p>EJEMPLO 7</p>
+    <section (mouseover)="onMouseOver()">
+      There's a secret message for you, hover to reveal 👀
+      {{ message }}
+    </section>
+  `,
 })
 export class Ejemplo7Component {
+  message = '';
 
+  onMouseOver() {
+    this.message = 'Way to go 🚀';
+}
 }
