@@ -8,11 +8,12 @@ import { Ejemplo6Component } from './ejemplo6/ejemplo6.component';
 import { Ejemplo7Component } from './ejemplo7/ejemplo7.component';
 import { Ejemplo8Component } from './ejemplo8/ejemplo8.component';
 import { Ejemplo9Component } from './ejemplo9/ejemplo9.component';
+import { Ejemplo10Component } from './ejemplo10/ejemplo10.component';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   standalone: true,
-  imports: [Ejemplo1Component, Ejemplo2Component, Ejemplo3Component, Ejemplo4Component, Ejemplo5Component, Ejemplo6Component, Ejemplo7Component, Ejemplo8Component, Ejemplo9Component]  // Asegúrate de importar los componentes aquí
+  imports: [Ejemplo1Component, Ejemplo2Component, Ejemplo3Component, Ejemplo4Component, Ejemplo5Component, Ejemplo6Component, Ejemplo7Component, Ejemplo8Component, Ejemplo9Component, Ejemplo10Component]  // Asegúrate de importar los componentes aquí
 })
 export class AppComponent {}
