@@ -1,1 +1,21 @@
-<p>ejemplo11 works!</p>
+<p>EJEMPLO 11</p>
+<p>Username: {{ username }}</p>
+<p>Preferred Framework:</p>
+<ul>
+  <li>
+    Static Image:
+    <img 
+      ngSrc="assets/logo.svg" 
+      alt="Angular logo" 
+      width="32" 
+      height="32" />
+  </li>
+  <li>
+    Dynamic Image:
+    <img 
+      [ngSrc]="logoUrl" 
+      [alt]="logoAlt" 
+      width="32" 
+      height="32" />
+  </li>
+</ul>

@@ -1,11 +1,16 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
+import {RouterOutlet} from '@angular/router';
 
 @Component({
   selector: 'app-ejemplo12',
-  imports: [],
-  templateUrl: './ejemplo12.component.html',
-  styleUrl: './ejemplo12.component.css'
+  template: `
+    <nav>
+      <a href="/">Home</a>
+      |
+      <a href="/user">User</a>
+    </nav>
+    <router-outlet />
+  `,
+  imports: [RouterOutlet],
 })
-export class Ejemplo12Component {
-
-}
+export class Ejemplo12Component {}
