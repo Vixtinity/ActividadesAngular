@@ -13,6 +13,10 @@ import { Ejemplo11Component } from './ejemplo11/ejemplo11.component';
 import { Ejemplo12Component } from './ejemplo12/ejemplo12.component';
 import { Ejemplo13Component } from './ejemplo13/ejemplo13.component';
 import {RouterOutlet, RouterLink} from '@angular/router';
+import { Ejemplo15Component } from './ejemplo15/ejemplo15.component';
+import { Ejemplo16Component } from './ejemplo16/ejemplo16.component';
+import { Ejemplo17Component } from './ejemplo17/ejemplo17.component';
+import { Ejemplo18Component } from './ejemplo18/ejemplo18.component';
 
 @Component({
   selector: 'app-root',
@@ -26,6 +30,6 @@ import {RouterOutlet, RouterLink} from '@angular/router';
     <router-outlet />
   `,
   standalone: true,
-  imports: [RouterOutlet, RouterLink, Ejemplo1Component, Ejemplo2Component, Ejemplo3Component, Ejemplo4Component, Ejemplo5Component, Ejemplo6Component, Ejemplo7Component, Ejemplo8Component, Ejemplo9Component, Ejemplo10Component, Ejemplo11Component, Ejemplo12Component, Ejemplo13Component]
+  imports: [RouterOutlet, RouterLink, Ejemplo1Component, Ejemplo2Component, Ejemplo3Component, Ejemplo4Component, Ejemplo5Component, Ejemplo6Component, Ejemplo7Component, Ejemplo8Component, Ejemplo9Component, Ejemplo10Component, Ejemplo11Component, Ejemplo12Component, Ejemplo13Component, Ejemplo15Component, Ejemplo16Component, Ejemplo17Component, Ejemplo18Component]
 })
 export class AppComponent {}
